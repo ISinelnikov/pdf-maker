@@ -1,9 +1,9 @@
 # pdf-maker
-String html template to pdf.
+Java String html-template to pdf.
 
 # How it works?
 
-The library provides methods for generation byte arrays for html strings.
+The library provides methods for generation byte arrays for strings.
 
 
 # Supported technology
