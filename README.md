@@ -1,5 +1,8 @@
-# pdf-maker
+## pdf-maker
 Java String html-template to pdf.
+
+## Current version
+0.0.1 without SNAPSHOT
 
 ## How it works?
 
