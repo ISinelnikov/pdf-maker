@@ -1,5 +1,7 @@
 package pdf.generator;
 
+import java.util.Arrays;
+
 public enum Font {
     Times_New_Roman("Times_New_Roman.ttf");
 
@@ -9,12 +11,14 @@ public enum Font {
         this.fontName = fontName;
     }
 
+    public String getFontName() {
+        return fontName;
+    }
+
     public static Font getFontByName(String fontName) {
-        switch (fontName) {
-            case "Times New Roman":
-                return Font.Times_New_Roman;
-            default:
-                return Font.Times_New_Roman;
-        }
+        return Arrays.stream(values())
+                .filter(font -> font.getFontName().equals(fontName))
+                .findFirst()
+                .orElse(Times_New_Roman);
     }
 }
