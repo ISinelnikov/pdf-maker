@@ -2,7 +2,7 @@
 The Java String html-template to the pdf.
 
 ## Current version
-Stable: 1.0
+**Stable: 1.0**
 
 ## How it works?
 The library provides methods for generation a byte array for a string html template.
