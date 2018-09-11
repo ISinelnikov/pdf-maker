@@ -11,7 +11,7 @@ The library provides methods for generation byte arrays for strings.
 
 ## Supported technology
 
-It this moment pdf-maker might use HTML documents before version 5+ and CSS before version 3+.
+It this moment pdf-maker might use HTML documents **BEFORE** version 5+ and CSS **BEFORE** version 3+.
 
 
 ## How I can use this library?
