@@ -2,7 +2,7 @@
 Java String html-template to pdf.
 
 ## Current version
-0.0.1 without SNAPSHOT
+1.0 without SNAPSHOT
 
 ## How it works?
 
