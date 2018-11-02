@@ -21,7 +21,7 @@ public class PDFMaker {
     /**
      * This method generates a pdf byte array for the string template
      *
-     * @param template is empty html
+     * @param template is plane html
      * @return
      */
     public static byte[] generatePDFFromHTML(String template) throws FileGenerationException {
@@ -49,7 +49,7 @@ public class PDFMaker {
     /**
      * This method writes a pdf byte array to the output stream
      *
-     * @param template     is empty html
+     * @param template is plane html
      * @param outputStream
      */
     public static void generatePDFFromHTML(String template, OutputStream outputStream) throws FileGenerationException, IOException {
