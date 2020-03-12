@@ -3,9 +3,9 @@ package pdf.generator;
 import java.util.Arrays;
 
 public enum Font {
-    Times_New_Roman("Times_New_Roman.ttf");
+    TIMES_NEW_ROMAN("Times_New_Roman.ttf");
 
-    private String fontName;
+    private final String fontName;
 
     Font(String fontName) {
         this.fontName = fontName;
@@ -19,6 +19,6 @@ public enum Font {
         return Arrays.stream(values())
                 .filter(font -> font.getFontName().equals(fontName))
                 .findFirst()
-                .orElse(Times_New_Roman);
+                .orElse(TIMES_NEW_ROMAN);
     }
 }

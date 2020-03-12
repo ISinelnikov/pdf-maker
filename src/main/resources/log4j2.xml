@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="debug">
+  <appenders>
+    <console name="console" target="system_out">
+      <patternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS}    %-5p    %m    (%c in '%t')%n"/>
+    </console>
+  </appenders>
+  <loggers>
+    <root level="debug">
+      <appenderRef ref="console"/>
+    </root>
+  </loggers>
+</configuration>
